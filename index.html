@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đề Mẫu Giữa Kỳ - Bài Thi Ứng Dụng Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-section">
+                <div class="logo-icon">OU</div>
+                <div class="university-name">
+                    <h2>TRƯỜNG ĐẠI HỌC MỞ TP. HỒ CHÍ MINH</h2>
+                    <p>HO CHI MINH CITY OPEN UNIVERSITY</p>
+                </div>
+            </div>
+            <div class="slide-title">ĐỀ MẪU GIỮA KỲ</div>
+        </div>
+
+        <!-- Subheader -->
+        <div class="sub-header">
+            BÀI THI ỨNG DỤNG WEB
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Cột 1: Navigation Buttons -->
+            <div class="menu-buttons">
+                <button class="btn-nav">HTML</button>
+                <button class="btn-nav">CSS</button>
+                <button class="btn-nav">JAVASCRIPT</button>
+                <button class="btn-nav">JQUERY</button>
+            </div>
+
+            <!-- Cột 2: Giới thiệu HTML -->
+            <div class="intro-section">
+                <div class="section-title">Giới thiệu về HTML</div>
+                <div class="intro-text">
+                    <p><b>HTML</b> <i>(Hypertext Markup Language)</i> là một ngôn ngữ đánh dấu siêu văn bản, được dùng
+                        để tạo ra các trang web.</p>
+                    <p><b>Nội dung tập tin HTML</b> chứa các thẻ (tag) với các thuộc tính được dùng để trình bày hình
+                        thức và nội dung của trang web.</p>
+                </div>
+                <div class="html-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                        alt="HTML5 Logo">
+                </div>
+            </div>
+
+            <!-- Cột 3: Mã hóa chuỗi -->
+            <div class="encode-section">
+                <div class="section-title">Mã hóa chuỗi</div>
+
+                <div class="form-group">
+                    <label for="inputStr">Nhập chuỗi cần mã hóa</label>
+                    <textarea id="inputStr" placeholder="ABC XYZ 1289 az"></textarea>
+                </div>
+
+                <button class="btn-action" id="btnEncode">Mã hóa</button>
+
+                <div class="form-group" style="margin-top: 10px;">
+                    <label for="outputStr">Chuỗi đã được mã hóa</label>
+                    <textarea id="outputStr" readonly></textarea>
+                </div>
+
+                <button class="btn-action" id="btnDecode">Giải mã</button>
+            </div>
+
+            <!-- Cột 4: QR Code -->
+            <div class="qr-section">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=TQRCG" alt="QR Code">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-line"></div>
+        <div class="footer-text">
+            <span>ThS Nguyễn Thị Mai Trang</span>
+            <span>69</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
